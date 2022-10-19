@@ -7,7 +7,7 @@ public class Main {
 
         // EJERCICIO DE IF.
 
-        int numeroIF = -3;
+        int numeroIF = 0;
 
         if (numeroIF > 0) {
             System.out.println("Es positivo");
@@ -21,7 +21,7 @@ public class Main {
 
         //EJERCICIO DE WHILE.
 
-        int numeroWhile = 0;
+        int numeroWhile = 1;
 
         while (numeroWhile < 3) {
             System.out.println(numeroWhile);
@@ -41,7 +41,7 @@ public class Main {
 
         // Ejercicio de FOR.
 
-        for (int numeroFOR = 0; numeroFOR <= 3; numeroFOR = numeroFOR +1) {
+        for (int numeroFOR = 0; numeroFOR <= 5; numeroFOR = numeroFOR +1) {
             System.out.println(numeroFOR);
         }
 
@@ -65,7 +65,7 @@ public class Main {
                 System.out.println("Es invierno");
                 break;
             default:
-                System.out.println("El valor de la variable no corresponde a ninguna estación");
+                System.out.println("No es una estación");
         }
 
     }
